@@ -9,6 +9,7 @@ let highScore = 0
 //setting the scroe and secret number variables
 document.querySelector('.number').textContent = "?"
 document.querySelector('.score').textContent = score
+console.log("Secret Number " + Secret_Number)
 
 // addEventListner listens for any updates in the webpage
 document.querySelector('.check').addEventListener('click', function () {
@@ -59,6 +60,7 @@ document.querySelector('.check').addEventListener('click', function () {
 })
 
 document.querySelector('.again').addEventListener('click', function () {
+    console.clear()
     score = 20;
     Secret_Number = Math.trunc(Math.random() * 20) + 1
 
@@ -69,4 +71,5 @@ document.querySelector('.again').addEventListener('click', function () {
 
     document.querySelector('body').style.backgroundColor = '#222'
     document.querySelector('.number').style.width = '15rem'
+    console.log("Secret Number " + Secret_Number)
 })
