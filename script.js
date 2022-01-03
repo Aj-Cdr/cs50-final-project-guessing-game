@@ -3,7 +3,7 @@
 //random number for the game
 let Secret_Number = Math.trunc(Math.random() * 10) + 1
 //score
-let score = 5
+let score = 20
 let highScore = 0
 
 //setting the scroe and secret number variables
