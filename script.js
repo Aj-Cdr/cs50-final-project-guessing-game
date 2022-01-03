@@ -1,9 +1,9 @@
 'use strict'
 
 //random number for the game
-let Secret_Number = Math.trunc(Math.random() * 20) + 1
+let Secret_Number = Math.trunc(Math.random() * 10) + 1
 //score
-let score = 20
+let score = 5
 let highScore = 0
 
 //setting the scroe and secret number variables
