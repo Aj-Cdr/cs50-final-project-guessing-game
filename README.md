@@ -1,2 +1,1 @@
-# GUESSING-GAME
-# https://spaboi.github.io/GUESSING-GAME/
+# GUESSING-GAME - https://spaboi.github.io/GUESSING-GAME/
