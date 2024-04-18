@@ -1,1 +1,3 @@
-# GUESSING-GAME - https://aj-cdr.github.io/GUESSING-GAME/
+# Guessing Game
+#### Video Demo:  <URL HERE>
+#### Description: A number guessing game made with html, css, and JS. 
